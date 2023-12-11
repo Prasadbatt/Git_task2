@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "please enter a day"
+read a
+case "$a" in
+"Monday")echo Yes its monday is present;;
+"Wednesday")echo Yes its Wednesday is present;;
+"Thursday")echo Yes its Thursday is present;;
+*)echo Invalid choice;;
+esac
